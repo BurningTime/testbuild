@@ -627,14 +627,20 @@ body{
 
 }
 .card{
-width: 500px;
+    width: 100%;
+    max-width: 360px; /* Optimal width for form */
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    margin-top: -50px;
 
 
 }
 .card-header  {
-    font-size: 1.5rem;
     text-align: center;
-    font-weight: bold;
+            color: #333333;
+            font-size: 24px; 
 }
 .disabled-link {
     color: gray; /* Change the color to indicate it's disabled */
