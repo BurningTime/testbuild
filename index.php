@@ -46,7 +46,7 @@ if ($result->num_rows > 0) {
         <ul class="side-menu">
             <li class="active"><a href="#" data-target="dashboard" ><i class='bx bxs-dashboard'></i>Dashboard</a></li>
             <li><a href="#" data-target="shop"><i class='bx bx-store-alt'></i>Products</a></li>
-            <li ><a href="#" data-target="analytics"><i class='bx bx-analyse'></i>Analytics</a></li>
+            <li ><a href="#" data-target="numbers"><i class='bx bx-analyse'></i>Analytics</a></li>
             <li><a href="#" data-target="tickets"><i class='bx bx-message-square-dots'></i>Tickets</a></li>
             <li><a href="#" data-target="users"><i class='bx bx-group'></i>Users</a></li>
             <li><a href="#" data-target="settings"><i class='bx bx-cog'></i>Settings</a></li>
@@ -87,6 +87,8 @@ if ($result->num_rows > 0) {
         <?php include('dashboard_content.php'); ?>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
+    <script src="chart.js"></script>
 </body>
 </html>

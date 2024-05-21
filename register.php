@@ -8,6 +8,7 @@ include("navbar.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BurningTime | Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             background-color: #f0f0f0; /* Optional: Setting a light background */
@@ -58,7 +59,7 @@ include("navbar.php");
         <!-- Form column -->
         <div class="col-md-6">
             <div class="card">
-                <div class="card-header">Register</div>
+                <div class="card-header text-center">Register</div>
                 <div class="card-body">
                     <form action="regauth.php" id="registrationForm" method="post">
                         <div class="form-floating mb-3 mt-3">
@@ -87,23 +88,18 @@ include("navbar.php");
                             <label class="form-check-label" for="myCheck">Agree with terms and conditions.</label>
                         </div>
                         <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
-            <button type="submit" class="btn btn-primary" id="signUpButton" name="signUp">Register</button>
-        </div>
-    </div>
-</div>
-
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 text-center">
+                                     <button type="submit" class="btn btn-primary" id="signUpButton" name="signUp">Register</button>
+                                </div>
+                             </div>
+                        </div>
                     </form>
                 </div>
-                <div class="card-footer">BruteForce 1.1</div>
             </div>
         </div>
     </div>
 </div>
-
-<!-- Bootstrap JS (including Popper.js) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="loginauth.js"></script>
 <?php
 include("footer.php");

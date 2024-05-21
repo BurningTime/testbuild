@@ -239,6 +239,7 @@
         </a>
     </div>
     <div class="bottom-data">
+    <div class="orders">
         <div class="settings">
             <div class="header">
                 <i class='bx bx-list-ul'></i>
@@ -252,6 +253,48 @@
                 <p><strong>Maintenance Mode:</strong> Disabled</p>
             </div>
         </div>
+        </div>
+        <div class="settings">
+                <div class="header">
+                    <i class='bx bx-user'></i>
+                    <h3>User Settings</h3>
+                    <i class='bx bx-filter'></i>
+                    <i class='bx bx-search'></i>
+                </div>
+                <div class="configurations">
+                    <p><strong>Username:</strong> user123</p>
+                    <p><strong>Email:</strong> user@example.com</p>
+                    <p><strong>Two-Factor Authentication:</strong> Enabled</p>
+                </div>
+            </div>
+
+            <div class="settings">
+                <div class="header">
+                    <i class='bx bx-shield'></i>
+                    <h3>Security Settings</h3>
+                    <i class='bx bx-filter'></i>
+                    <i class='bx bx-search'></i>
+                </div>
+                <div class="configurations">
+                    <p><strong>Password:</strong> *********</p>
+                    <p><strong>Account Lock:</strong> After 3 failed attempts</p>
+                    <p><strong>Data Encryption:</strong> Enabled</p>
+                </div>
+            </div>
+
+            <div class="settings">
+                <div class="header">
+                    <i class='bx bx-palette'></i>
+                    <h3>Appearance Settings</h3>
+                    <i class='bx bx-filter'></i>
+                    <i class='bx bx-search'></i>
+                </div>
+                <div class="configurations">
+                    <p><strong>Theme:</strong> Light</p>
+                    <p><strong>Font Size:</strong> Medium</p>
+                    <p><strong>Color Scheme:</strong> Blue</p>
+                </div>
+            </div>
     </div>
 </div>
 
@@ -269,6 +312,7 @@
         </a>
     </div>
     <div class="bottom-data">
+    <div class="orders">
         <div class="users">
             <div class="header">
                 <i class='bx bx-group'></i>
@@ -287,20 +331,21 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Jane Doe</td>
-                        <td>jane.doe@example.com</td>
+                        <td>Ronald Robins</td>
+                        <td>ceo@mineski.global</td>
                         <td>01-04-2023</td>
-                        <td>Administrator</td>
+                        <td>Client</td>
                     </tr>
                     <tr>
-                        <td>John Smith</td>
-                        <td>john.smith@example.com</td>
+                        <td>Eric Redulfin</td>
+                        <td>ceo@thenet.com</td>
                         <td>12-11-2022</td>
-                        <td>User</td>
+                        <td>Client</td>
                     </tr>
                     <!-- More users here -->
                 </tbody>
             </table>
+        </div>
         </div>
     </div>
 </div>
@@ -319,6 +364,7 @@
         </a>
     </div>
     <div class="bottom-data">
+    <div class="orders">
         <div class="tickets">
             <div class="header">
                 <i class='bx bx-envelope'></i>
@@ -353,7 +399,41 @@
             </table>
         </div>
     </div>
-</div>
+    </div>    
 </div>
 
+<div id="numbers" class="content-section" style="display: none;">
+<div class="header">
+        <div class="left">
+            <h1>Traffic Data</h1>
+            <ul class="breadcrumb">
+                <li><a href="#" class="active">Monitor your traffic from your ads and site visits.</a></li>
+            </ul>
+        </div>
+        <a href="#" class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Download CSV</span>
+                </a>
+                <div class="bottom-data">
+                <div class="orders">
+        <div class="analytics">
+            <div class="chart-container">
+                <div class="header">
+                    <i class='bx bx-chart'></i>
+                    <h3>Ads Traffic</h3>
+                </div>
+                <canvas id="adsTrafficChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="header">
+                    <i class='bx bx-chart'></i>
+                    <h3>Site Traffic</h3>
+                </div>
+                <canvas id="siteTrafficChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
 

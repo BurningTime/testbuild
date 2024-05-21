@@ -6,7 +6,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome CSS (for tooltip) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         /* Add custom CSS styles */
         .navbar-brand {
@@ -35,7 +34,6 @@
     </style>
 </head>
 <body>
-
 <nav class="navbar navbar-expand-sm navbar-light">
     <div class="container-fluid">
         <div class="row w-100">
@@ -67,7 +65,6 @@
         </div>
     </div>
 </nav>
-
 <!-- Bootstrap JS (including Popper.js) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script>
@@ -78,7 +75,6 @@
             trigger: 'manual' // Set the trigger to manual to show the tooltip programmatically
         })
     })
-
     // Show tooltip on click
     document.getElementById('homeLink').addEventListener('click', function(event) {
         event.preventDefault();

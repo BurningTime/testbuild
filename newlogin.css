@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --light: #f6f6f9;
+    --primary: #e24717;
+    --light-primary: #CFE8FF;
+    --grey: #eee;
+    --dark-grey: #AAAAAA;
+    --dark: #363949;
+    --danger: #D32F2F;
+    --light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2C6;
+    --success: #388E3C;
+    --light-success: #BBF7D0;
+    --input-bg: #f6f6f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff; /* Dark background */
+    color: var(--light);
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-header {
+    background: #f53c55;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding: 20px 0;
+    font-size: 24px;
+    margin: -20px -20px 20px;
+}
+
+.card-header a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.card input[type="email"], .card input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: var(--input-bg);
+}
+
+.card input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.card .btn {
+    background: #f53c55;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    margin: 20px 0px;
+}
+
+.card .btn:hover {
+    background: #e23747;
+}
+
+.card .signup-link {
+    color: #f53c55;
+}
+
+.card .signup-link a {
+    color: #f53c55;
+    text-decoration: none;
+}
+
+.card .signup-link a:hover {
+    text-decoration: underline;
+}
